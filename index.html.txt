@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Jhoselin Portafolio</title>
+
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<div class="brillos"></div>
+
+
+<img class="kuromi"
+src="https://i.ibb.co/mrv1Phn1/image.png">
+
+
+<section id="portada">
+
+
+<h1>
+JHOSELIN MARELY YANCHAGUANO MAIGUA
+</h1>
+
+
+<div class="contenido">
+
+
+<div class="ladoIzquierdo">
+
+
+<img class="foto"
+src="https://i.ibb.co/QFtRBC0S/Whats-App-Image-2026-08-06-at-10-20-54-AM.jpg">
+
+
+<button id="btnUnidades">
+
+? UNIDADES ?
+
+</button>
+
+
+
+<div class="notas">
+
+<p>
+Unidad 1
+<br>
+?????
+</p>
+
+
+<p>
+Unidad 2
+<br>
+???
+</p>
+
+
+<p>
+Unidad 3
+<br>
+?
+</p>
+
+
+</div>
+
+
+</div>
+
+
+
+
+<div class="bio"
+id="bio">
+
+
+<h2>
+Biografía
+</h2>
+
+
+<p>
+<b>Nombre:</b>
+Jhoselin Marely Yanchaguano Maigua
+</p>
+
+
+<p>
+<b>Edad:</b>
+18 años
+</p>
+
+
+<p>
+<b>Estado Civil:</b>
+Soltera
+</p>
+
+
+<p>
+<b>Estudios Bachiller:</b>
+Unidad Educativa Luis Fernando Ruiz
+</p>
+
+
+<p>
+<b>Dirección:</b>
+Patután
+</p>
+
+
+<p>
+<b>Cantón:</b>
+Latacunga
+</p>
+
+
+<p>
+<b>Provincia:</b>
+Cotopaxi
+</p>
+
+
+<p>
+Actualmente me encuentro estudiando en la Universidad Técnica de Cotopaxi en la Facultad de Ciencias de la Ingeniería y Aplicadas (SNA CIYA), la carrera Ingeniería en Software-nivelación.
+</p>
+
+
+<p>
+Me gusta escuchar música y viajar.
+</p>
+
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+<!-- MENU DE UNIDADES -->
+
+
+<section id="menu">
+
+
+<button id="volverPortada">
+
+?? Volver a portada
+
+</button>
+
+
+
+<div class="circulos">
+
+
+<div class="unidad" id="unidad1">
+Unidad 1
+</div>
+
+
+<div class="unidad" id="unidad2">
+Unidad 2
+</div>
+
+
+<div class="unidad" id="unidad3">
+Unidad 3
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+<!-- INFORMACION -->
+
+
+<section id="informacion">
+
+
+<button id="volverCirculos">
+
+? Volver
+
+</button>
+
+
+<div id="contenido">
+
+</div>
+
+
+</section>
+
+
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>

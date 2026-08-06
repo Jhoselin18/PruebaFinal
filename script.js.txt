@@ -1,0 +1,407 @@
+// ELEMENTOS
+
+const btnUnidades = document.getElementById("btnUnidades");
+
+const portada = document.getElementById("portada");
+
+const menu = document.getElementById("menu");
+
+const informacion = document.getElementById("informacion");
+
+const contenido = document.getElementById("contenido");
+
+const volverPortada = document.getElementById("volverPortada");
+
+const volverCirculos = document.getElementById("volverCirculos");
+
+
+
+// ABRIR CIRCULOS
+
+btnUnidades.onclick = function(){
+
+
+    portada.style.display="none";
+
+    menu.style.display="flex";
+
+
+};
+
+
+
+
+// VOLVER A PORTADA
+
+volverPortada.onclick=function(){
+
+
+    menu.style.display="none";
+
+
+    portada.style.display="block";
+
+
+};
+
+
+
+
+// ABRIR UNIDAD 1
+
+
+document.getElementById("unidad1").onclick=function(){
+
+
+mostrarUnidad(`
+
+
+<h2>
+Unidad 1: Estructura y funcionamiento del computador
+</h2>
+
+
+
+<div class="tarjeta">
+
+<h3>?? Modelo de Von Neumann y Harvard</h3>
+
+<p>
+<b>Concepto:</b>
+Son modelos que explican la organización interna de un computador y la forma en que procesa información.
+</p>
+
+
+<p>
+<b>Ejemplo:</b>
+Un procesador utiliza memoria para guardar instrucciones y datos.
+</p>
+
+</div>
+
+
+
+<div class="tarjeta">
+
+<h3>?? Sistemas Operativos</h3>
+
+<p>
+<b>Concepto:</b>
+Software encargado de administrar los recursos del computador.
+</p>
+
+
+<p>
+<b>Ejemplo:</b>
+Windows, Linux y macOS.
+</p>
+
+</div>
+
+
+
+
+<div class="tarjeta">
+
+<h3>?? Sistemas de numeración y conversiones</h3>
+
+<p>
+<b>Concepto:</b>
+Representan información usando sistemas como binario, octal y hexadecimal.
+</p>
+
+
+<p>
+<b>Ejemplo:</b>
+10 decimal = 1010 binario.
+</p>
+
+</div>
+
+
+
+
+<div class="tarjeta">
+
+<h3>? Aritmética binaria</h3>
+
+<p>
+<b>Concepto:</b>
+Operaciones matemáticas usando 0 y 1.
+</p>
+
+
+<p>
+<b>Ejemplo:</b>
+1 + 1 = 10 en binario.
+</p>
+
+</div>
+
+
+
+
+<div class="tarjeta">
+
+<h3>?? Álgebra de Boole</h3>
+
+<p>
+<b>Concepto:</b>
+Sistema matemático utilizado en circuitos digitales.
+</p>
+
+
+<p>
+<b>Ejemplo:</b>
+AND, OR y NOT.
+</p>
+
+</div>
+
+
+`);
+
+};
+
+
+
+
+// ABRIR UNIDAD 2
+
+
+document.getElementById("unidad2").onclick=function(){
+
+
+mostrarUnidad(`
+
+
+<h2>
+Unidad 2: Algoritmos, diagramas de flujo y pseudocódigo
+</h2>
+
+
+
+<div class="tarjeta">
+
+<h3>?? Algoritmos y sus características</h3>
+
+<p>
+<b>Concepto:</b>
+Conjunto de pasos ordenados para resolver un problema.
+</p>
+
+<p>
+<b>Ejemplo:</b>
+Pasos para preparar una comida.
+</p>
+
+</div>
+
+
+
+<div class="tarjeta">
+
+<h3>?? Diagramas de flujo</h3>
+
+<p>
+<b>Concepto:</b>
+Representación gráfica de un algoritmo mediante símbolos.
+</p>
+
+<p>
+<b>Ejemplo:</b>
+Proceso para iniciar sesión.
+</p>
+
+</div>
+
+
+
+<div class="tarjeta">
+
+<h3>?? Pseudocódigo</h3>
+
+<p>
+<b>Concepto:</b>
+Permite escribir instrucciones antes de programar.
+</p>
+
+<p>
+<b>Ejemplo:</b>
+Inicio ? ingresar datos ? mostrar resultado.
+</p>
+
+</div>
+
+
+
+<div class="tarjeta">
+
+<h3>?? Modelo de problemas</h3>
+
+<p>
+<b>Concepto:</b>
+Analiza un problema para encontrar una solución.
+</p>
+
+<p>
+<b>Ejemplo:</b>
+Determinar datos necesarios para un programa.
+</p>
+
+</div>
+
+
+
+`);
+
+};
+
+
+
+
+// ABRIR UNIDAD 3
+
+
+document.getElementById("unidad3").onclick=function(){
+
+
+mostrarUnidad(`
+
+
+<h2>
+Unidad 3: Programación
+</h2>
+
+
+
+<div class="tarjeta">
+
+<h3>?? Lenguajes y paradigmas de programación</h3>
+
+<p>
+<b>Concepto:</b>
+Son herramientas y métodos para crear programas.
+</p>
+
+<p>
+<b>Ejemplo:</b>
+Python, Java y C++.
+</p>
+
+</div>
+
+
+
+<div class="tarjeta">
+
+<h3>?? Introducción a Python</h3>
+
+<p>
+<b>Concepto:</b>
+Lenguaje de programación fácil de aprender.
+</p>
+
+<p>
+<b>Ejemplo:</b>
+print("Hola mundo")
+</p>
+
+</div>
+
+
+
+<div class="tarjeta">
+
+<h3>? Operadores algebraicos, relacionales y lógicos</h3>
+
+<p>
+<b>Concepto:</b>
+Permiten realizar operaciones y comparaciones.
+</p>
+
+<p>
+<b>Ejemplo:</b>
+5 > 3 es verdadero.
+</p>
+
+</div>
+
+
+
+<div class="tarjeta">
+
+<h3>?? Estructuras condicionales</h3>
+
+<p>
+<b>Concepto:</b>
+Permiten tomar decisiones en un programa.
+</p>
+
+<p>
+<b>Ejemplo:</b>
+Si tengo contraseña correcta ? entrar.
+</p>
+
+</div>
+
+
+
+<div class="tarjeta">
+
+<h3>?? Estructuras repetitivas</h3>
+
+<p>
+<b>Concepto:</b>
+Repiten instrucciones varias veces.
+</p>
+
+<p>
+<b>Ejemplo:</b>
+Mostrar números del 1 al 10.
+</p>
+
+</div>
+
+
+`);
+
+};
+
+
+
+
+
+// FUNCION PARA MOSTRAR UNIDAD
+
+
+function mostrarUnidad(texto){
+
+
+menu.style.display="none";
+
+
+informacion.style.display="block";
+
+
+contenido.innerHTML=texto;
+
+
+}
+
+
+
+
+// VOLVER DE INFORMACION A CIRCULOS
+
+
+volverCirculos.onclick=function(){
+
+
+informacion.style.display="none";
+
+
+menu.style.display="flex";
+
+
+};
